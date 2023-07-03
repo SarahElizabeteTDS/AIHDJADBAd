@@ -1,0 +1,18 @@
+let soma_maior=$1+$2
+if[ $# -eq 2 ]
+then
+ let soma_maior=$1+$2
+ echo $soma_maior
+else
+ echo Número de parâmetros inválido. Informe dois números.
+fi
+if [ $1 -gt $2 ]
+then
+ echo O número maior é $1
+fi
+if [ $2 -gt $1]
+ echo O número maior é $2
+fi
+if [ $1 -eq $2]
+ echo Os números são iguais
+fi
