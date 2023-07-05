@@ -3,16 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n = 1
 		
-		para(inteiro i=1; i <= 5; i++)
+		para(inteiro linha=1; linha <= 5; linha++)
 		{
-			para(inteiro j=1; j <= n; j++)
+			para(inteiro coluna=1; coluna <= linha; coluna++)
 			{
 				escreva("* ")
 			}
 			escreva("\n")
-			n++
+			
 		}
 		
 	}
