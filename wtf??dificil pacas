@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		para(inteiro linha=4; linha >= 0; linha--)
+		{
+			para(inteiro coluna=1; coluna <= linha; coluna++)
+			{
+				escreva("- ")
+			}
+			para(inteiro coluna=4; coluna >= linha; coluna--)
+			{
+				escreva("* ")
+			}
+			escreva("\n")	
+		}
+		
+	}
+}
