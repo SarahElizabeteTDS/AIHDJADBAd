@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n = 1
+		
+		para(inteiro i=1; i <= 5; i++)
+		{
+			para(inteiro j=1; j <= n; j++)
+			{
+				escreva("* ")
+			}
+			escreva("\n")
+			n++
+		}
+		
+	}
+}
